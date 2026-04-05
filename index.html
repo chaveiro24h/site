@@ -1,141 +1,169 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chaveiro 24h DF | Atendimento Rápido</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chaveiro 24h DF | Atendimento Rápido</title>
 
-    <!-- SEO básico -->
-    <meta name="description" content="Chaveiro 24h no DF. Atendimento rápido, abertura de portas, troca de fechaduras e chave automotiva. Ligue agora!">
+<meta name="description" content="Chaveiro 24h DF. Atendimento imediato, abertura de portas, troca de fechaduras e chave automotiva. Ligue agora!">
 
-    <!-- Estilo -->
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #0f0f0f;
-            color: #fff;
-        }
+<style>
+body {
+    margin:0;
+    font-family:Arial;
+    background:#0b0b0b;
+    color:white;
+    text-align:center;
+}
 
-        header {
-            background: #d90000;
-            padding: 20px;
-            text-align: center;
-        }
+/* TOPO */
+header {
+    background:linear-gradient(90deg, red, orange);
+    padding:20px;
+}
 
-        header h1 {
-            margin: 0;
-        }
+h1 {
+    margin:0;
+}
 
-        nav {
-            background: #111;
-            padding: 10px;
-            text-align: center;
-        }
+/* ALERTA PISCANDO */
+.alerta {
+    background:yellow;
+    color:black;
+    font-weight:bold;
+    padding:10px;
+    animation:pulse 1s infinite;
+}
 
-        nav a {
-            color: #ffcc00;
-            margin: 0 10px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+@keyframes pulse {
+    50% { opacity:0.3; }
+}
 
-        section {
-            padding: 40px 20px;
-            text-align: center;
-        }
+/* HERO */
+.hero {
+    padding:40px 20px;
+}
 
-        .hero {
-            background: linear-gradient(black, #1a1a1a);
-        }
+/* BOTÕES */
+.btn {
+    display:block;
+    margin:15px auto;
+    padding:18px;
+    width:85%;
+    max-width:320px;
+    font-size:20px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
 
-        .btn {
-            display: inline-block;
-            margin: 10px;
-            padding: 15px 25px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+.ligar {
+    background:red;
+    color:white;
+}
 
-        .ligar {
-            background: red;
-            color: white;
-        }
+.whatsapp {
+    background:#25d366;
+    color:white;
+}
 
-        .whatsapp {
-            background: #25d366;
-            color: white;
-        }
+/* PROVA SOCIAL */
+.avaliacoes {
+    margin-top:20px;
+    font-size:18px;
+    color:gold;
+}
 
-        .servicos {
-            background: #1a1a1a;
-        }
+/* SERVIÇOS */
+.servicos {
+    background:#1a1a1a;
+    padding:30px 10px;
+}
 
-        .card {
-            background: #222;
-            margin: 10px;
-            padding: 20px;
-            border-radius: 10px;
-            display: inline-block;
-            width: 220px;
-        }
+.card {
+    background:#222;
+    margin:10px;
+    padding:20px;
+    border-radius:10px;
+}
 
-        footer {
-            background: #000;
-            padding: 20px;
-            text-align: center;
-            font-size: 14px;
-        }
-    </style>
+/* DIFERENCIAIS */
+.diferenciais {
+    padding:30px;
+}
+
+/* BOTÃO FLUTUANTE */
+.float {
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25d366;
+    color:white;
+    padding:15px 18px;
+    border-radius:50px;
+    font-size:18px;
+    text-decoration:none;
+}
+
+/* RODAPÉ */
+footer {
+    background:black;
+    padding:20px;
+    font-size:14px;
+}
+</style>
+
 </head>
 
 <body>
 
-    <!-- TOPO -->
-    <header>
-        <h1>🔑 Chaveiro 24h DF</h1>
-        <p>Atendimento rápido e profissional</p>
-    </header>
+<header>
+    <h1>🔑 CHAVEIRO 24H DF</h1>
+    <p>Atendimento imediato</p>
+</header>
 
-    <!-- MENU -->
-    <nav>
-        <a href="#">Início</a>
-        <a href="#">Serviços</a>
-        <a href="#">Contato</a>
-    </nav>
+<div class="alerta">
+🚨 CHEGAMOS EM ATÉ 20 MINUTOS 🚨
+</div>
 
-    <!-- HERO -->
-    <section class="hero">
-        <h2>Precisa de ajuda urgente?</h2>
-        <p>Chegamos rápido até você!</p>
+<section class="hero">
+    <h2>TRANCADO? PERDEU A CHAVE?</h2>
+    <p>Atendimento rápido na sua região</p>
 
-        <a class="btn ligar" href="tel:+5561982051138">📞 Ligar Agora</a>
-        <a class="btn whatsapp" href="https://wa.me/5561982051138">💬 WhatsApp</a>
-    </section>
+    <a class="btn ligar" href="tel:+5561982051138">📞 LIGAR AGORA</a>
+    <a class="btn whatsapp" href="https://wa.me/5561982051138">💬 CHAMAR NO WHATSAPP</a>
 
-    <!-- SERVIÇOS -->
-    <section class="servicos">
-        <h2>Nossos Serviços</h2>
+    <div class="avaliacoes">
+        ⭐⭐⭐⭐⭐ Mais de 500 clientes atendidos
+    </div>
+</section>
 
-        <div class="card">🔓 Abertura de portas</div>
-        <div class="card">🚗 Chave automotiva</div>
-        <div class="card">🏠 Troca de fechaduras</div>
-        <div class="card">🔑 Cópia de chaves</div>
-    </section>
+<section class="servicos">
+    <h2>Serviços</h2>
 
-    <!-- CONTATO -->
-    <section>
-        <h2>Contato</h2>
-        <p>Atendimento 24 horas</p>
-        <p>📞 (61) 98205-1138</p>
-    </section>
+    <div class="card">🔓 Abertura de portas</div>
+    <div class="card">🚗 Chave automotiva</div>
+    <div class="card">🏠 Troca de fechaduras</div>
+    <div class="card">🔑 Cópia de chaves</div>
+</section>
 
-    <!-- RODAPÉ -->
-    <footer>
-        <p>Chaveiro 24h DF © 2026</p>
-        <p>Atendimento rápido | Segurança | Confiança</p>
-    </footer>
+<section class="diferenciais">
+    <h2>Por que escolher a gente?</h2>
+    <p>✔ Atendimento 24 horas</p>
+    <p>✔ Chegada rápida</p>
+    <p>✔ Preço justo</p>
+    <p>✔ Profissional experiente</p>
+</section>
+
+<footer>
+    <p>📞 (61) 98205-1138</p>
+    <p>Chaveiro 24h DF © 2026</p>
+</footer>
+
+<!-- BOTÃO FLUTUANTE -->
+<a class="float" href="https://wa.me/5561982051138">
+💬
+</a>
 
 </body>
 </html>
